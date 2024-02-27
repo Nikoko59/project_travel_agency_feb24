@@ -1,0 +1,271 @@
+body {
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+
+h1{
+font-size:1.8rem; 
+color: #070142; 
+
+
+
+}
+
+
+
+.point {
+    font-size: 3rem; 
+    color:orange;  
+    border-radius : 2000px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+}
+
+.travel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-left: 20px;
+}
+
+nav ul li  {
+    display: inline-flex; 
+    justify-content: space-evenly;
+    width: 200px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none ;
+    color : #070142; 
+    font-size: 1.2rem ; 
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+#main {
+    min-height : 600px ; 
+    background: url(assets/Projet\ \ Mise\ en\ place-main.jpg) no-repeat center/cover scroll  ; 
+
+}
+
+#main .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#principaltext{
+padding: 100px 0 40px 0 ;
+    font-size : 3.5rem; 
+    color: #070142; 
+    text-align: center;
+
+
+}
+
+#principaltext:first-letter{
+    color : orange  ;
+}
+#btn1 {
+    padding: 10px;
+    width: 100px;
+    font-size: 1.4rem; 
+    border:1px solid orange;
+    background: #070142;
+   border-radius:20px; 
+   color : orange; 
+   cursor :pointer; 
+
+}
+
+/* STEP */
+#step-contain .wrapper{
+    display: flex;
+    width: 100%;
+
+}
+
+.contain-step {
+    display: flex;
+    padding: 0;
+}
+
+#step1{
+    background: red;
+    text-align : center;
+    list-style-type: none;
+    padding: 10px;
+    margin: 20px;
+    color:white; 
+}
+
+#step2{
+    background: orange ; 
+    text-align : center;
+    list-style-type: none;
+    padding: 10px;
+margin: 20px;
+color : white; 
+}
+
+#step3{
+    background: blue;
+    text-align : center;
+    list-style-type: none;
+    padding: 10px;
+    margin: 20px;
+    color: white; 
+}
+
+/* family  */
+#family {
+    padding: 60px 0 ; 
+    background: #f2f2f2;
+}
+
+#family .wrapper {
+width: 940px;
+margin: 0 auto;
+
+padding:  0  10px;
+
+}
+
+#family article {
+    width: 460px;
+    height: 270px;
+    float : left;
+    border-radius : 10px; 
+
+}
+
+#family article:first-child{
+    margin-right: 20px; 
+}
+
+.overlay {
+    background: #f9f9f9;
+    height: 100%;
+    width: 190px;
+    padding: 20px;
+    border-radius : 10px 0 0 10px; 
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+article h4 {
+    text-transform: uppercase; 
+    border-bottom: 1px solid red;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px; 
+    font-size: 1rem; 
+    
+    
+}
+
+
+
+.paraone{
+    font-size: 0.8rem; 
+font-style: italic;
+margin-bottom: 20px;
+}
+
+
+.clear{
+    clear: both; 
+}
+
+/* formulaire de contact  */
+#contact{
+    height: 300px;
+    padding: 30px 0 ; 
+    text-align: center;
+    margin: 20px;
+}
+
+#contact h3 {
+    text-align: center;
+    font-size: 2.2rem; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+.bordform {
+    display: block;
+    height: 2px;
+    width: 300px;
+    background-color: #55b6e4; 
+    margin: 0 auto;
+}
+
+#contact input {
+    padding: 12px 24px ; 
+    border-radius : 20px;
+    width:500px; 
+    float: right; 
+    margin:20px; 
+    border: 1px solid #55b6e4; 
+    color : #070142; 
+    font-weight: 600;
+    
+
+}
+
+#contact .form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+
+#contact  .paratwo {
+    font-size: 0.9rem; 
+   width: 100%; 
+    
+}
+
+#contact #btn3 {
+    padding: 10px;
+    background: #55b6e4;
+    color: white; 
+    font-weight: bold; 
+    outline: none;
+    border: 1px solid #55b6e4; 
+    font-size: 1rem; 
+
+}
+
+/* footer */
+.info {
+    background: #070142;
+    height: 300px;
+    margin: 0 auto;
+}
+
+footer h1 {
+    margin: 0 auto; 
+    color: white; 
+    text-align: center;
+    padding: 50px ; 
+    font-size: 2.5rem; 
+
+
+}
+
+.foota{
+    color:white;
+    text-align: center;
+}
